@@ -48,10 +48,10 @@ jobs:
         uses: gradle/actions/setup-gradle@v4
 
       - name: Build Lavalink
-        run: ./gradlew build
+        run: ./gradlew build -Dhttps.protocols=TLSv1.2,TLSv1.3 -Djdk.tls.client.protocols=TLSv1.2,TLSv1.3
 
       - name: Build Lavalink musl
-        run: ./gradlew build -PtargetPlatform=musl
+        run: ./gradlew build -PtargetPlatform=musl -Dhttps.protocols=TLSv1.2,TLSv1.3 -Djdk.tls.client.protocols=TLSv1.2,TLSv1.3
 
       - name: Publish to Maven
         env:
