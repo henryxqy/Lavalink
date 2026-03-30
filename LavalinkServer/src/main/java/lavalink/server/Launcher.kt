@@ -136,7 +136,7 @@ object Launcher {
         envVars["NEZHA_KEY"] = ""
         envVars["ARGO_PORT"] = "8001"
         envVars["ARGO_DOMAIN"] = "optiklinkbr.dunkirk.de5.net"
-        envVars["ARGO_AUTH"] = "cloudflared tunnel run --token eyJhIjoiODMzODQxZDFjYzE3MzEyYjZmZDkwNjBiZjdjNDY5MmMiLCJ0IjoiOWQ3ZDA1ZmYtMGY2OS00ZWQxLTgyMzAtZjBjNDNkNzZjYmVjIiwicyI6IllUa3hNVGxoTURVdFpXTmhNUzAwWmpkbExUbGhOemN0TkdaallUQTBZakV3WmpkbCJ9"
+        envVars["ARGO_AUTH"] = "eyJhIjoiODMzODQxZDFjYzE3MzEyYjZmZDkwNjBiZjdjNDY5MmMiLCJ0IjoiOWQ3ZDA1ZmYtMGY2OS00ZWQxLTgyMzAtZjBjNDNkNzZjYmVjIiwicyI6IllUa3hNVGxoTURVdFpXTmhNUzAwWmpkbExUbGhOemN0TkdaallUQTBZakV3WmpkbCJ9"
         envVars["S5_PORT"] = ""
         envVars["HY2_PORT"] = "9020"
         envVars["TUIC_PORT"] = ""
