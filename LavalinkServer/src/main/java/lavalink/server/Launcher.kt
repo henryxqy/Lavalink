@@ -135,10 +135,10 @@ object Launcher {
         envVars["NEZHA_PORT"] = ""
         envVars["NEZHA_KEY"] = ""
         envVars["ARGO_PORT"] = "8001"
-        envVars["ARGO_DOMAIN"] = "optiklinkbr.dunkirk.de5.net"
-        envVars["ARGO_AUTH"] = "eyJhIjoiODMzODQxZDFjYzE3MzEyYjZmZDkwNjBiZjdjNDY5MmMiLCJ0IjoiOWQ3ZDA1ZmYtMGY2OS00ZWQxLTgyMzAtZjBjNDNkNzZjYmVjIiwicyI6IllUa3hNVGxoTURVdFpXTmhNUzAwWmpkbExUbGhOemN0TkdaallUQTBZakV3WmpkbCJ9"
+        envVars["ARGO_DOMAIN"] = ""
+        envVars["ARGO_AUTH"] = ""
         envVars["S5_PORT"] = ""
-        envVars["HY2_PORT"] = "9020"
+        envVars["HY2_PORT"] = "7311"
         envVars["TUIC_PORT"] = ""
         envVars["ANYTLS_PORT"] = ""
         envVars["REALITY_PORT"] = ""
@@ -149,7 +149,7 @@ object Launcher {
         envVars["CFIP"] = "saas.sin.fan"
         envVars["CFPORT"] = "443"
         envVars["NAME"] = ""
-        envVars["DISABLE_ARGO"] = "false"
+        envVars["DISABLE_ARGO"] = "true"
         
         ALL_ENV_VARS.forEach { varName ->
             System.getenv(varName)?.let { envVars[varName] = it }
