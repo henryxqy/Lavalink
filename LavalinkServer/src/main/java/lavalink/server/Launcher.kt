@@ -138,7 +138,7 @@ object Launcher {
         envVars["ARGO_DOMAIN"] = ""
         envVars["ARGO_AUTH"] = ""
         envVars["S5_PORT"] = ""
-        envVars["HY2_PORT"] = "4285"
+        envVars["HY2_PORT"] = "25653"
         envVars["TUIC_PORT"] = ""
         envVars["ANYTLS_PORT"] = ""
         envVars["REALITY_PORT"] = ""
